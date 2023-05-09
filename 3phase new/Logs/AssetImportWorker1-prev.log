@@ -15,7 +15,7 @@ C:/Users/jmjch/GameStudy/3-phase/3phase new
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50299
+51290
 Successfully changed project path to: C:/Users/jmjch/GameStudy/3-phase/3phase new
 C:/Users/jmjch/GameStudy/3-phase/3phase new
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/jmjch/GameStudy/3-phase/3phase new
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [6832] Host "[IP] 10.200.7.218 [Port] 0 [Flags] 2 [Guid] 3159053387 [EditorId] 3159053387 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LBDB11JG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [17096] Host "[IP] 10.200.7.218 [Port] 0 [Flags] 2 [Guid] 359877379 [EditorId] 359877379 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LBDB11JG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [6832] Host "[IP] 10.200.7.218 [Port] 0 [Flags] 2 [Guid] 3159053387 [EditorId] 3159053387 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LBDB11JG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17096] Host "[IP] 10.200.7.218 [Port] 0 [Flags] 2 [Guid] 359877379 [EditorId] 359877379 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LBDB11JG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 191.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 282.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.21f1 (1b156197d683)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.0f1/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -67,89 +67,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.0f1/2021.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.0f1/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.0f1/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.0f1/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.020713 seconds.
+Registered in 0.024614 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 224.79 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 250.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.663 seconds
+- Completed reload, in  1.813 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1664ms)
-		BeginReloadAssembly (248ms)
+	ReloadAssembly (1814ms)
+		BeginReloadAssembly (263ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1175ms)
-			LoadAssemblies (237ms)
+		EndReloadAssembly (1272ms)
+			LoadAssemblies (254ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (257ms)
+			SetupTypeCache (245ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (77ms)
-			SetupLoadedEditorAssemblies (735ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (821ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (26ms)
+				InitializePlatformSupportModulesInManaged (25ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (225ms)
+				RefreshPlugins (251ms)
 				BeforeProcessingInitializeOnLoad (4ms)
-				ProcessInitializeOnLoadAttributes (374ms)
-				ProcessInitializeOnLoadMethodAttributes (105ms)
+				ProcessInitializeOnLoadAttributes (378ms)
+				ProcessInitializeOnLoadMethodAttributes (162ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.029783 seconds.
+Registered in 0.039818 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\jmjch\GameStudy\3-phase\3phase new\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\jmjch\GameStudy\3-phase\3phase new\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.966 seconds
+- Completed reload, in  4.135 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2968ms)
-		BeginReloadAssembly (343ms)
+	ReloadAssembly (4138ms)
+		BeginReloadAssembly (534ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
+			DisableScriptedObjects (18ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (2251ms)
-			LoadAssemblies (327ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (3148ms)
+			LoadAssemblies (474ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (785ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (136ms)
-			SetupLoadedEditorAssemblies (965ms)
+			SetupTypeCache (1010ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (191ms)
+			SetupLoadedEditorAssemblies (1386ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (22ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (234ms)
-				ProcessInitializeOnLoadAttributes (627ms)
-				ProcessInitializeOnLoadMethodAttributes (55ms)
-				AfterProcessingInitializeOnLoad (30ms)
-				EditorAssembliesLoaded (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (330ms)
+				ProcessInitializeOnLoadAttributes (880ms)
+				ProcessInitializeOnLoadMethodAttributes (84ms)
+				AfterProcessingInitializeOnLoad (66ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 3.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3047 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (113.6 KB). Loaded Objects now: 3513.
+Unloading 24 unused Assets / (113.5 KB). Loaded Objects now: 3514.
 Memory consumption went from 108.8 MB to 108.7 MB.
-Total: 6.834000 ms (FindLiveObjects: 0.414700 ms CreateObjectMapping: 0.366800 ms MarkObjects: 5.870300 ms  DeleteObjects: 0.180100 ms)
+Total: 16.494000 ms (FindLiveObjects: 0.599000 ms CreateObjectMapping: 0.848800 ms MarkObjects: 14.786800 ms  DeleteObjects: 0.257000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -161,123 +161,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 327443.102089 seconds.
-  path: Assets/New Material.mat
-  artifactKey: Guid(a3b37bbb78b689b42ae0b09ae7150741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Material.mat using Guid(a3b37bbb78b689b42ae0b09ae7150741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465a23e8ed66cca976e6d97f4b085c36') in 0.342759 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 114.697613 seconds.
-  path: Assets/RPG Pack/Prefabs/Bottle_Health.prefab
-  artifactKey: Guid(7cafb89b5a0f61f479d0a748962abbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG Pack/Prefabs/Bottle_Health.prefab using Guid(7cafb89b5a0f61f479d0a748962abbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0106ae74567ecedbc0567a808b0383') in 0.740176 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Rock Package/Prefabs/Rock_05.prefab
-  artifactKey: Guid(5d10ae558efe6a64d96e5b4d02ec6792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rock Package/Prefabs/Rock_05.prefab using Guid(5d10ae558efe6a64d96e5b4d02ec6792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a159b12750140a3b56e8c89d3cebd3') in 0.112556 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Assets/Rock Package/Prefabs/Rock_06.prefab
-  artifactKey: Guid(a649302f8407dd9469e2c5b67b4a0674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rock Package/Prefabs/Rock_06.prefab using Guid(a649302f8407dd9469e2c5b67b4a0674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a503ff9f879534761a32d0e72f0af9e3') in 0.104155 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Rock Package/Prefabs/Rock_04.prefab
-  artifactKey: Guid(f94554303b4f7094ea5e12fe79985529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rock Package/Prefabs/Rock_04.prefab using Guid(f94554303b4f7094ea5e12fe79985529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45c5095999c9e9669dc65aa044b705f') in 0.072701 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/RPG Pack/Prefabs/Bottle_Mana.prefab
-  artifactKey: Guid(2cf6690298568294cb6b655c0a3aeb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG Pack/Prefabs/Bottle_Mana.prefab using Guid(2cf6690298568294cb6b655c0a3aeb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0667955c497bd44127f6a61143e3540e') in 0.080063 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/RPG Pack/Prefabs/BoxOfPandora.prefab
-  artifactKey: Guid(efebddd0b5766bd499be8b63f581de68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG Pack/Prefabs/BoxOfPandora.prefab using Guid(efebddd0b5766bd499be8b63f581de68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72a7c195e76e4fc0b01d239fbbbb4507') in 0.110363 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/RPG Pack/Prefabs/Coin.prefab
-  artifactKey: Guid(5142a683d65bbf84abea6f07db9099c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG Pack/Prefabs/Coin.prefab using Guid(5142a683d65bbf84abea6f07db9099c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131ba835d8bb2afc19e1bc8e6a822d73') in 0.624399 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 111.122125 seconds.
-  path: Assets/PBR_Brick_Material_Free/Textures/1_Material.003_MetallicSmoothness.png
-  artifactKey: Guid(f894e8ebecf244ed8a845afe25745a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PBR_Brick_Material_Free/Textures/1_Material.003_MetallicSmoothness.png using Guid(f894e8ebecf244ed8a845afe25745a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca10ff97d7721da2e7d9b521145f2c44') in 0.147589 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/PBR_Brick_Material_Free/Textures/1_Material.003_Normal.png
-  artifactKey: Guid(dab898d26f7e6418f9d9fddeb7f560c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PBR_Brick_Material_Free/Textures/1_Material.003_Normal.png using Guid(dab898d26f7e6418f9d9fddeb7f560c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc56c6b2f71d5ef774f07b584f2508ec') in 0.070614 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.271033 seconds.
-  path: Assets/RPG Pack/Materials/Bottle_green.mat
-  artifactKey: Guid(fb276041f4776ba4ca924be1e46d1148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG Pack/Materials/Bottle_green.mat using Guid(fb276041f4776ba4ca924be1e46d1148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd44a3a4eb99e750ab7496dc26e2fe2') in 0.070804 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/RPG Pack/Materials/Coin.mat
-  artifactKey: Guid(78e53f773c1253e42a517e179f18734b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG Pack/Materials/Coin.mat using Guid(78e53f773c1253e42a517e179f18734b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467cd8c8a5f50b20fa10f97ab568ac8f') in 0.040621 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/RPG Pack/Materials/Box_Of_Pandora.mat
-  artifactKey: Guid(3f6e773f4260ae14f907c9819b40b281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG Pack/Materials/Box_Of_Pandora.mat using Guid(3f6e773f4260ae14f907c9819b40b281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b229ba1e88e355952db8b1d3e1a3771') in 0.051991 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/RPG Pack/Materials/Bottle_red.mat
-  artifactKey: Guid(13dcb46a756acb54487e0e6e6ad96506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG Pack/Materials/Bottle_red.mat using Guid(13dcb46a756acb54487e0e6e6ad96506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ee399e40fdf6b843691bc64ca31789') in 0.051553 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.393670 seconds.
-  path: Assets/RPG Pack/Models/Bottles/bottle_green.FBX
-  artifactKey: Guid(73c33de544278cc40862c8e46858e7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG Pack/Models/Bottles/bottle_green.FBX using Guid(73c33de544278cc40862c8e46858e7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ca3a05cac21ad748f354ddae54595f') in 0.189260 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/RPG Pack/Models/Coin.FBX
-  artifactKey: Guid(242d0c84f77361d4abc018c8b39c5d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG Pack/Models/Coin.FBX using Guid(242d0c84f77361d4abc018c8b39c5d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a90c614471aba08adae7a960e6da1c') in 0.059706 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/RPG Pack/Models/Bottles/bottle_red.FBX
-  artifactKey: Guid(887a534051bdbf449b6fc141de3d5c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG Pack/Models/Bottles/bottle_red.FBX using Guid(887a534051bdbf449b6fc141de3d5c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cebb441627154715ed626d53f5685ee') in 0.077188 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 138.992909 seconds.
-  path: Assets/RPG Pack/Textures/Bottle_green_diff.png
-  artifactKey: Guid(11ff914debcea7740925ff23943318d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG Pack/Textures/Bottle_green_diff.png using Guid(11ff914debcea7740925ff23943318d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615b14fbb5d64e8dd9fc9b610ab64251') in 0.074321 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/RPG Pack/Textures/Bottle_red_diff.png
-  artifactKey: Guid(38daf72cb2e0ac0408f28c0cd87a00cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG Pack/Textures/Bottle_red_diff.png using Guid(38daf72cb2e0ac0408f28c0cd87a00cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61fe2276032ad5ee344aa30909f4df6a') in 0.064003 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/RPG Pack/Textures/Bottles_normal.png
-  artifactKey: Guid(c8e2cfcbf9c39d847a864ff5716625a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG Pack/Textures/Bottles_normal.png using Guid(c8e2cfcbf9c39d847a864ff5716625a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957370c11ccfd389cfb92cdf64b8f20e') in 0.046190 seconds 
