@@ -345,7 +345,17 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/BowScript.cs"
+"Assets/CoinMove.cs"
+"Assets/Destructable.cs"
+"Assets/FirstPersonController.cs"
+"Assets/GLASSOFCOINS - FPS low poly fps/shotgun1/Usermovement.cs"
+"Assets/GunScript.cs"
+"Assets/MoveToTarget.cs"
 "Assets/Old Torch/Script/FlickLight.cs"
+"Assets/PlayerController.cs"
+"Assets/TargetScript.cs"
+"Assets/WeaponSwitching.cs"
 -langversion:9.0
 
 /deterministic
