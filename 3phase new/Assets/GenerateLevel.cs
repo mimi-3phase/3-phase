@@ -20,9 +20,9 @@ public class GenerateLevel : MonoBehaviour
         IEnumerator GenerateSection()
         {
             secNum = Random.Range(0, 3);
-            Instantiate(section[secNum], new Vector(0, 0, zPos), Quaternion.identity);
+            Instantiate(section[secNum], new Vector3(0, 0, zPos), Quaternion.identity);
             zPos += 10;
-            yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(3);
             creatingSection = false;
         }
     }
