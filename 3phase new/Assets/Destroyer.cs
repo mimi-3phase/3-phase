@@ -5,7 +5,7 @@ using UnityEngine;
 public class Destroyer : MonoBehaviour
 {
     public string parentName;
-    [SerializeField] private float seconds = 5.0f;
+    //[SerializeField] private float seconds = 5.0f;
 
     void Start()
     {
@@ -15,7 +15,7 @@ public class Destroyer : MonoBehaviour
 
     IEnumerator DestroyClone()
     {
-        yield return new WaitForSeconds(seconds);
+        yield return new WaitForSeconds(12);
         if (parentName == "Mark(Clone)")
         {
             Destroy(gameObject);
