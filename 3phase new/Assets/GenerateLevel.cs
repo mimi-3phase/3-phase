@@ -8,6 +8,7 @@ public class GenerateLevel : MonoBehaviour
     public int zPos = 10;
     public bool creatingSection = false;
     public int secNum;
+    [SerializeField] private float seconds=1.0f;
 
     void Update()
     {
@@ -22,7 +23,7 @@ public class GenerateLevel : MonoBehaviour
             secNum = Random.Range(0, 3);
             Instantiate(section[secNum], new Vector3(0, 0, zPos), Quaternion.identity);
             zPos += 10;
-            yield return new WaitForSeconds(3);
+            yield return new WaitForSeconds(seconds);
             creatingSection = false;
         }
     }
