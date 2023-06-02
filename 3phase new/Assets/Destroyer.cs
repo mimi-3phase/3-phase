@@ -5,17 +5,18 @@ using UnityEngine;
 public class Destroyer : MonoBehaviour
 {
     public string parentName;
+    //[SerializeField] private float seconds = 5.0f;
 
-    void Update()
+    void Start()
     {
-        parentName = transform.name;
-
+        parentName = transform.name;//get the name of the obect
+        StartCoroutine(DestroyClone());//ÄÚ·çÆ¾....
     }
 
     IEnumerator DestroyClone()
     {
-        yield return new WaitForSeconds(2);
-        if (parentName == "Section(Clone)")
+        yield return new WaitForSeconds(12);
+        if (parentName == "Mark(Clone)")
         {
             Destroy(gameObject);
         }
