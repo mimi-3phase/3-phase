@@ -17,11 +17,11 @@ public class CoinMove : MonoBehaviour
 
 
 
-		if (distance <= 10.0f)
+		if (distance <= 3.0f)
 
 		{
 
-			transform.position = Vector3.MoveTowards(gameObject.transform.position, targetPosition.transform.position, 0.01f);
+			transform.position = Vector3.MoveTowards(gameObject.transform.position, targetPosition.transform.position, 0.001f);
 			Debug.Log("This is player"+transform.position);
 		}
 	}
