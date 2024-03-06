@@ -1,3 +1,3 @@
 # 3-phase
 make 3phase of mimi
-# 학교 프로젝트에요... VR로 게임 만들어유...
+# Unity 3D VR FPS Game
